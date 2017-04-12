@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lettele Tour</string>
+    <string name="title_activity_maps">Route App tour</string>
+    <string name="title_activity_main">App Tour scanner</string>
+    <string name="title_activity_scanner">Scanner</string>
+    <string name="title_activity_scan">ScanActivity</string>
+</resources>
