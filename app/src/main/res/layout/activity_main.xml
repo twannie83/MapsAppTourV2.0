@@ -25,7 +25,7 @@
         android:layout_height="36dp"
         android:layout_marginTop="8dp"
         android:layout_weight="1"
-        android:text="Stiefeltocht door Lettele, goa op zoek noar stippelploatjes!Scan deze voor meer informatie"
+        android:text="Stiefeltocht door Lettele, goa op zoek noar pokkelploatjes!Scan deze voor meer informatie"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.0"
@@ -45,7 +45,7 @@
 
     <Button
         android:id="@+id/Scannen_Button"
-        style="@android:style/Widget.Button"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="163dp"
         android:layout_height="48dp"
         android:layout_weight="1"
@@ -108,7 +108,7 @@
         android:background="@drawable/common_google_signin_btn_text_dark_focused"
         android:elevation="0dp"
         android:onClick="buttonClickFunction"
-        android:text="Maps App Tour Overzicht "
+        android:text="Maps Pokkelploatjes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -123,6 +123,17 @@
         app:layout_constraintGuide_end="297dp"
         tools:layout_editor_absoluteY="0dp"
         tools:layout_editor_absoluteX="23dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/colorPressedHighlight"
+        android:onClick="buttonRecorderClickFunction"
+        android:text="Recorder"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="32dp" />
 
 
 </android.support.constraint.ConstraintLayout>
