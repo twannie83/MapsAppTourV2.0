@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Stiefel Tocht App</string>
+    <string name="app_name">Stiefel Tocht</string>
     <string name="title_activity_maps">Maps Pokkelpunten</string>
-    <string name="title_activity_main">Stiefel Tocht App</string>
+    <string name="title_activity_main">Stiefel Tocht</string>
     <string name="title_activity_scanner">Scanner pokkelpoalen</string>
     <string name="title_activity_scan">Scanner pokkelpoalen</string>
-    <string name="title_activity_recorder">Emotie recorder</string>
+    <string name="title_activity_recorder">Ervaringen </string>
 </resources>

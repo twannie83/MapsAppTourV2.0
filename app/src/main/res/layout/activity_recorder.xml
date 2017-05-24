@@ -14,41 +14,81 @@
         />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:background="@android:color/holo_red_dark"
         android:text="Record"
-        android:id="@+id/button"
         android:layout_below="@+id/imageView"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="37dp"
-        />
+        android:layout_alignParentStart="true" />
 
     <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="STOP"
-        android:id="@+id/button2"
         android:layout_alignTop="@+id/button"
         android:layout_centerHorizontal="true"
-        />
+        android:background="@color/cast_intro_overlay_button_background_color"
+        android:text="STOP" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Play"
         android:id="@+id/button3"
-        android:layout_alignTop="@+id/button2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        />
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="STOP PLAYING RECORDING "
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button2"
+        android:background="@color/viewfinder_border"
+        android:text="Play" />
+
+    <Button
         android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        />
+        android:background="@android:color/holo_orange_dark"
+        android:text="STOP PLAYING RECORDING " />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/rankText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/rankText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="57dp"
+        android:text="Beoordeel deze pokkelinfo met sterren " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView"
+        android:layout_toStartOf="@+id/button4"
+        android:text="Spreek je uit over dit pokkelpunt! Wat zie, voel en heb je geleerd? Dit is alleen voor eigen gebruik. Geluid wordt alleen lokaal op je telefoon opgeslagen" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:text="Opmerkingen over dit pokkelpunt" />
 </RelativeLayout>

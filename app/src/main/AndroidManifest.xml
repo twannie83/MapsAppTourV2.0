@@ -44,19 +44,16 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".ScannerActivity"
-            android:label="@string/title_activity_scanner"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_scanner" />
         <activity android:name=".WebActivity" />
         <activity
             android:name=".RecorderActivity"
-            android:label="@string/title_activity_recorder"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_recorder"/>
     </application>
 
 </manifest>

@@ -1,139 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.casasolutions.mapsapptour.MainActivity"
-    tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
-
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/appBarLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AppTheme.PopupOverlay"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="0dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:text="Stiefeltocht door Lettele, goa op zoek noar pokkelploatjes!Scan deze voor meer informatie"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.516" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/logo_lettele"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <Button
-        android:id="@+id/Scannen_Button"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="163dp"
-        android:layout_height="48dp"
-        android:layout_weight="1"
-        android:backgroundTint="@android:color/holo_green_dark"
-        android:onClick="buttonScanClickFunction"
-        android:text="Scannen QR"
-        android:textStyle="bold"
+    >
+        android:layout_width="313dp"
+        android:layout_height="447dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.864" />
+        app:layout_constraintRight_toRightOf="parent">
 
-    <android.support.constraint.Guideline
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/guideline"
-        app:layout_constraintGuide_begin="20dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="20dp" />
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
 
-    <android.support.constraint.Guideline
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/guideline2"
-        app:layout_constraintGuide_begin="20dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="20dp" />
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="0dp" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="20dp" />
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/user_foto"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.57"
-        app:layout_constraintHorizontal_bias="0.511" />
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="0dp" />
 
     <Button
         android:id="@+id/Tour_Overzicht_Button"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="304dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_weight="1"
         android:background="@drawable/common_google_signin_btn_text_dark_focused"
         android:elevation="0dp"
         android:onClick="buttonClickFunction"
-        android:text="Maps Pokkelploatjes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.985" />
+        android:text="Maps Pokkelpoaltjes" />
 
     <android.support.constraint.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="106dp"
+            android:layout_height="48dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="buttonRecorderClickFunction"
+            android:text="Feedback"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="178dp"
+            tools:layout_editor_absoluteY="348dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_alignEnd="@+id/imageView2"
+            android:layout_marginTop="35dp" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/appBarLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/Scannen_Button"
+            android:layout_width="97dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_dark"
+            android:onClick="buttonScanClickFunction"
+            android:text="Scannen QR"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@+id/button7"
+            android:layout_alignBottom="@+id/button7"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/guideline4"
-        android:orientation="vertical"
-        app:layout_constraintGuide_end="297dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="23dp" />
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView4"
+        android:text="Stiefeltocht deur Lettele, goa op zoek noar pokkelpoaltjes!Scan deze voor meer informatie en weetjes."
+        android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/button7"
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="?android:attr/colorPressedHighlight"
-        android:onClick="buttonRecorderClickFunction"
-        android:text="Recorder"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="32dp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/guideline3"
+        app:srcCompat="@drawable/logo_lettele" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/user_foto"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/Tour_Overzicht_Button"
+        android:layout_alignStart="@+id/Tour_Overzicht_Button"
+        android:layout_alignRight="@+id/Tour_Overzicht_Button"
+        android:layout_alignEnd="@+id/Tour_Overzicht_Button" />
+
+</RelativeLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+
