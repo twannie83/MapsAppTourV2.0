@@ -62,7 +62,7 @@
             tools:layout_editor_absoluteY="0dp" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/FeedbackButton"
             android:layout_width="106dp"
             android:layout_height="48dp"
             android:background="@android:color/holo_orange_light"
@@ -72,10 +72,9 @@
             android:visibility="visible"
             tools:layout_editor_absoluteX="178dp"
             tools:layout_editor_absoluteY="348dp"
-            android:layout_below="@+id/imageView2"
-            android:layout_alignRight="@+id/imageView2"
-            android:layout_alignEnd="@+id/imageView2"
-            android:layout_marginTop="35dp" />
+            android:layout_above="@+id/Tour_Overzicht_Button"
+            android:layout_alignRight="@+id/Tour_Overzicht_Button"
+            android:layout_alignEnd="@+id/Tour_Overzicht_Button" />
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/appBarLayout"
@@ -96,24 +95,22 @@
             android:onClick="buttonScanClickFunction"
             android:text="Scannen QR"
             android:textStyle="bold"
-            android:layout_alignBaseline="@+id/button7"
-            android:layout_alignBottom="@+id/button7"
-            android:layout_alignLeft="@+id/imageView2"
-            android:layout_alignStart="@+id/imageView2" />
+            android:layout_above="@+id/Tour_Overzicht_Button"
+            android:layout_alignLeft="@+id/Tour_Overzicht_Button"
+            android:layout_alignStart="@+id/Tour_Overzicht_Button" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/Tour_Overzicht_Button"
+        android:layout_alignStart="@+id/Tour_Overzicht_Button"
+        android:layout_below="@+id/pokkelpoalImage"
         android:text="Stiefeltocht deur Lettele, goa op zoek noar pokkelpoaltjes!Scan deze voor meer informatie en weetjes."
-        android:textSize="18sp" />
+        android:textSize="14sp" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/pokkelpoalImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -123,24 +120,33 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/user_foto"
-        android:layout_centerVertical="true"
+        android:layout_above="@+id/spinner"
         android:layout_alignLeft="@+id/Tour_Overzicht_Button"
         android:layout_alignStart="@+id/Tour_Overzicht_Button"
-        android:layout_alignRight="@+id/Tour_Overzicht_Button"
-        android:layout_alignEnd="@+id/Tour_Overzicht_Button" />
+        android:text="Selecteer je informatie voorkeur"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        app:srcCompat="@drawable/user_foto"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/Scannen_Button"
-        android:layout_alignLeft="@+id/Scannen_Button"
-        android:layout_alignStart="@+id/Scannen_Button" />
+        android:layout_above="@+id/FeedbackButton"
+        android:layout_toRightOf="@+id/guideline3"
+        android:layout_toEndOf="@+id/guideline3"
+        android:layout_marginBottom="18dp" />
 
 </RelativeLayout>
 
