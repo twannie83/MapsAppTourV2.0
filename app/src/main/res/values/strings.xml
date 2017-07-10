@@ -5,4 +5,10 @@
     <string name="title_activity_scanner">Scanner pokkelpoalen</string>
     <string name="title_activity_scan">Scanner pokkelpoalen</string>
     <string name="title_activity_recorder">Ervaringen </string>
+    <string-array name="urlValues">
+        <item>Historie</item>
+        <item>Cultuur</item>
+        <item>Natuur</item>
+    </string-array>
+
 </resources>
