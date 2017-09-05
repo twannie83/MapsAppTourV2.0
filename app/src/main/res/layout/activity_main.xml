@@ -144,9 +144,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/FeedbackButton"
-        android:layout_toRightOf="@+id/guideline3"
+        android:layout_marginBottom="18dp"
         android:layout_toEndOf="@+id/guideline3"
-        android:layout_marginBottom="18dp" />
+        android:layout_toRightOf="@+id/guideline3"
+        android:background="@android:color/holo_blue_dark" />
 
 </RelativeLayout>
 
