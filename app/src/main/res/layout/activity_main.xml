@@ -124,11 +124,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/spinner"
-        android:layout_alignLeft="@+id/Tour_Overzicht_Button"
-        android:layout_alignStart="@+id/Tour_Overzicht_Button"
         android:text="Selecteer je informatie voorkeur"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:layout_above="@+id/spinner"
+        android:layout_toLeftOf="@+id/FeedbackButton"
+        android:layout_toStartOf="@+id/FeedbackButton" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -136,8 +136,10 @@
         android:layout_height="match_parent"
         android:adjustViewBounds="false"
         app:srcCompat="@drawable/user_foto"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignLeft="@+id/Tour_Overzicht_Button"
+        android:layout_alignStart="@+id/Tour_Overzicht_Button"
+        android:layout_above="@+id/textView3"
+        android:layout_below="@+id/textView" />
 
     <Spinner
         android:id="@+id/spinner"
