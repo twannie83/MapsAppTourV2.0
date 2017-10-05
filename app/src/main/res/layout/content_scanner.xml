@@ -8,4 +8,16 @@
     tools:context="com.casasolutions.mapsapptour.ScannerActivity"
     tools:showIn="@layout/activity_scanner">
 
+    <com.shamanland.fab.FloatingActionButton
+        android:layout_width="@dimen/cast_expanded_controller_control_toolbar_min_height"
+        android:layout_height="@dimen/cast_expanded_controller_control_toolbar_min_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:onClick="goHomeFunction"
+        android:src="@drawable/home_button"
+        tools:floatingActionButtonColor="@color/colorAccent" />
+
 </android.support.constraint.ConstraintLayout>

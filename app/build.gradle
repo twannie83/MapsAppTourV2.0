@@ -15,8 +15,8 @@ android {
         applicationId "com.casasolutions.mapsapptour"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 6
-        versionName "2.1"
+        versionCode 7
+        versionName "2.3"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -40,5 +40,6 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:design:25.3.1'
     compile 'me.dm7.barcodescanner:zxing:1.8.4'
+    compile 'com.shamanland:fab:0.0.6'
     testCompile 'junit:junit:4.12'
 }

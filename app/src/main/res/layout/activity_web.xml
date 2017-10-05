@@ -6,19 +6,17 @@
     android:layout_height="match_parent"
     >
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <com.shamanland.fab.FloatingActionButton
+        android:layout_width="@dimen/cast_expanded_controller_control_toolbar_min_height"
+        android:layout_height="@dimen/cast_expanded_controller_control_toolbar_min_height"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
+        android:layout_alignParentEnd="false"
         android:layout_alignParentRight="true"
-        android:layout_x="33dp"
-        android:layout_y="8dp"
-        android:clickable="true"
-        android:onClick="homeButtonClickFunction"
-        app:fabSize="mini"
-        app:srcCompat="?android:attr/actionModeCloseDrawable" />
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:onClick="goHomeFunction"
+        android:src="@drawable/home_button"
+        tools:floatingActionButtonColor="@color/colorAccent" />
 
     <WebView
         android:id="@+id/webView"
