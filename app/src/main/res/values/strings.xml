@@ -10,5 +10,6 @@
         <item>Cultuur</item>
         <item>Natuur</item>
     </string-array>
+    <string name="title_activity_puzzle">puzzle</string>
 
 </resources>

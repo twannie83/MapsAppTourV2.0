@@ -73,8 +73,8 @@
             tools:layout_editor_absoluteX="178dp"
             tools:layout_editor_absoluteY="348dp"
             android:layout_above="@+id/Tour_Overzicht_Button"
-            android:layout_alignRight="@+id/Tour_Overzicht_Button"
-            android:layout_alignEnd="@+id/Tour_Overzicht_Button" />
+            android:layout_toRightOf="@+id/StiefelRaadsel_Button"
+            android:layout_toEndOf="@+id/StiefelRaadsel_Button" />
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/appBarLayout"
@@ -98,6 +98,19 @@
             android:layout_above="@+id/Tour_Overzicht_Button"
             android:layout_alignLeft="@+id/Tour_Overzicht_Button"
             android:layout_alignStart="@+id/Tour_Overzicht_Button" />
+
+    <Button
+        android:id="@+id/StiefelRaadsel_Button"
+        android:layout_width="97dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="?android:attr/colorControlActivated"
+        android:onClick="buttonStiefelRaadselFunction"
+        android:text="Raadsel"
+        android:textStyle="bold"
+        android:layout_below="@+id/spinner"
+        android:layout_toRightOf="@+id/Scannen_Button"
+        android:layout_toEndOf="@+id/Scannen_Button" />
 
     <TextView
         android:id="@+id/textView"
