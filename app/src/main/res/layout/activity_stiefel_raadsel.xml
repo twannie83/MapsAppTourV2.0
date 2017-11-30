@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context="com.casasolutions.mapsapptour.StiefelRaadselActivity">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.casasolutions.mapsapptour.StiefelRaadselActivity">
 
     <EditText
         android:id="@+id/editText1"
@@ -16,9 +17,9 @@
         android:layout_toStartOf="@+id/button5"
         android:ems="1"
         android:inputType="text"
+        android:maxLength="1"
         tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="64dp"
-        android:maxLength="1"/>
+        tools:layout_editor_absoluteY="64dp" />
 
     <EditText
         android:id="@+id/editText2"
@@ -31,9 +32,9 @@
         android:ems="1"
         android:inputType="text"
 
+        android:maxLength="1"
         tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="64dp"
-        android:maxLength="1"/>
+        tools:layout_editor_absoluteY="64dp" />
 
     <EditText
         android:id="@+id/editText3"
@@ -46,270 +47,279 @@
         android:ems="1"
         android:inputType="text"
 
+        android:maxLength="1"
         tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="64dp"
-        android:maxLength="1"/>
+        tools:layout_editor_absoluteY="64dp" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="64dp"
         android:layout_alignBaseline="@+id/editText3"
         android:layout_alignBottom="@+id/editText3"
-        android:layout_toRightOf="@+id/editText3"
+
         android:layout_toEndOf="@+id/editText3"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText3"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="64dp" />
+
     <EditText
         android:id="@+id/editText5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="64dp"
         android:layout_alignBaseline="@+id/editText4"
         android:layout_alignBottom="@+id/editText4"
-        android:layout_toRightOf="@+id/editText4"
+
         android:layout_toEndOf="@+id/editText4"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText4"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="64dp" />
 
     <EditText
         android:id="@+id/editText6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="64dp"
         android:layout_alignBaseline="@+id/editText5"
         android:layout_alignBottom="@+id/editText5"
-        android:layout_toRightOf="@+id/editText5"
+
         android:layout_toEndOf="@+id/editText5"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText5"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="64dp" />
 
     <EditText
         android:id="@+id/editText7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="64dp"
-        android:maxLength="1"
         android:layout_alignBaseline="@+id/editText6"
         android:layout_alignBottom="@+id/editText6"
+
+        android:layout_toEndOf="@+id/editText6"
         android:layout_toRightOf="@+id/editText6"
-        android:layout_toEndOf="@+id/editText6" />
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="64dp" />
 
     <EditText
         android:id="@+id/editText8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="64dp"
         android:layout_alignBaseline="@+id/editText7"
         android:layout_alignBottom="@+id/editText7"
-        android:layout_toRightOf="@+id/editText7"
+
         android:layout_toEndOf="@+id/editText7"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText7"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="64dp" />
 
     <EditText
         android:id="@+id/editText9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="64dp"
         android:layout_alignBaseline="@+id/editText8"
         android:layout_alignBottom="@+id/editText8"
-        android:layout_toRightOf="@+id/editText8"
+
         android:layout_toEndOf="@+id/editText8"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText8"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="64dp" />
 
     <EditText
         android:id="@+id/editText10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="64dp"
         android:layout_alignBaseline="@+id/editText9"
         android:layout_alignBottom="@+id/editText9"
-        android:layout_toRightOf="@+id/editText9"
+
         android:layout_toEndOf="@+id/editText9"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText9"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="64dp" />
 
     <EditText
         android:id="@+id/editText11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_above="@+id/button5"
+        android:layout_marginBottom="30dp"
+
         android:layout_toLeftOf="@+id/button5"
         android:layout_toStartOf="@+id/button5"
-        android:layout_marginBottom="30dp"
-        android:maxLength="1"/>
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="120dp" />
+
     <EditText
         android:id="@+id/editText12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_alignBaseline="@+id/editText11"
         android:layout_alignBottom="@+id/editText11"
-        android:layout_toRightOf="@+id/editText11"
+
         android:layout_toEndOf="@+id/editText11"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText11"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="120dp" />
 
     <EditText
         android:id="@+id/editText13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_alignBaseline="@+id/editText12"
         android:layout_alignBottom="@+id/editText12"
-        android:layout_toRightOf="@+id/editText12"
+
         android:layout_toEndOf="@+id/editText12"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText12"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="120dp" />
 
     <EditText
         android:id="@+id/editText14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_alignBaseline="@+id/editText13"
         android:layout_alignBottom="@+id/editText13"
-        android:layout_toRightOf="@+id/editText13"
+
         android:layout_toEndOf="@+id/editText13"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText13"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="120dp" />
+
     <EditText
         android:id="@+id/editText15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_alignBaseline="@+id/editText14"
         android:layout_alignBottom="@+id/editText14"
-        android:layout_toRightOf="@+id/editText14"
+
         android:layout_toEndOf="@+id/editText14"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText14"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="120dp" />
+
     <EditText
         android:id="@+id/editText16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_alignBaseline="@+id/editText15"
         android:layout_alignBottom="@+id/editText15"
+
         android:layout_toLeftOf="@+id/editText7"
         android:layout_toStartOf="@+id/editText7"
-        android:maxLength="1"/>
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="120dp" />
+
     <EditText
         android:id="@+id/editText17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_alignBaseline="@+id/editText16"
         android:layout_alignBottom="@+id/editText16"
-        android:layout_toRightOf="@+id/editText16"
+
         android:layout_toEndOf="@+id/editText16"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText16"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="120dp" />
 
     <EditText
         android:id="@+id/editText18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_alignBaseline="@+id/editText17"
         android:layout_alignBottom="@+id/editText17"
-        android:layout_toRightOf="@+id/editText17"
+
         android:layout_toEndOf="@+id/editText17"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText17"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="120dp" />
 
     <EditText
         android:id="@+id/editText19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_alignBaseline="@+id/editText18"
         android:layout_alignBottom="@+id/editText18"
-        android:layout_toRightOf="@+id/editText18"
+
         android:layout_toEndOf="@+id/editText18"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText18"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="120dp" />
+
     <EditText
         android:id="@+id/editText20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="1"
-        android:inputType="text"
-
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="120dp"
         android:layout_alignBaseline="@+id/editText19"
         android:layout_alignBottom="@+id/editText19"
-        android:layout_toRightOf="@+id/editText19"
+
         android:layout_toEndOf="@+id/editText19"
-        android:maxLength="1"/>
+        android:layout_toRightOf="@+id/editText19"
+        android:ems="1"
+        android:inputType="text"
+        android:maxLength="1"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="120dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vul de letter van het antwoord van de puzzel bij het nummer van de pokkelpoal"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/editText1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:text="Vul de letter van het antwoord van de puzzel bij het nummer van de pokkelpoal"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <Button
         android:id="@+id/button5"
@@ -343,5 +353,25 @@
         android:layout_below="@+id/editText1"
         android:text=" 1  2  3  4  5  6  7  8  9 10"
         android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/diplomaView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/diploma" />
+
+    <ImageView
+        android:id="@+id/btn_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:onClick="goHomeFunction"
+        app:srcCompat="@drawable/home_button" />
 
 </RelativeLayout>
