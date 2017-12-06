@@ -11,5 +11,7 @@
         <item>Natuur</item>
     </string-array>
     <string name="title_activity_puzzle">puzzle</string>
+    <string-array name="stiefelanswer_array">
+    </string-array>
 
 </resources>
