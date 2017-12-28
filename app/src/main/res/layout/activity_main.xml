@@ -119,7 +119,7 @@
         android:layout_alignLeft="@+id/Tour_Overzicht_Button"
         android:layout_alignStart="@+id/Tour_Overzicht_Button"
         android:layout_below="@+id/pokkelpoalImage"
-        android:text="Stiefeltocht deur Lettele, goa op zoek noar pokkelpoaltjes!Scan deze voor meer informatie en weetjes."
+        android:text="Stiefeltocht deur Lettele, goa op zoek noar pokkelpoaltjes!Scan deze voor meer informatie en weetjes. Vul bij raadsel de letters van het Stiefelraadsel!"
         android:textSize="14sp" />
 
     <ImageView
@@ -144,11 +144,11 @@
         android:layout_toStartOf="@+id/FeedbackButton" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/user_foto_new"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:adjustViewBounds="false"
-        app:srcCompat="@drawable/user_foto"
+        app:srcCompat="@drawable/user_foto_new"
         android:layout_alignLeft="@+id/Tour_Overzicht_Button"
         android:layout_alignStart="@+id/Tour_Overzicht_Button"
         android:layout_above="@+id/textView3"

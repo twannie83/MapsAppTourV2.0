@@ -15,8 +15,8 @@ android {
         applicationId "com.casasolutions.mapsapptour"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 9
-        versionName "3.0"
+        versionCode 10
+        versionName "3.1"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
